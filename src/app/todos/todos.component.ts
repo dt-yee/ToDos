@@ -46,6 +46,7 @@ export class TodosComponent implements OnInit {
 
   addModel(){
     this.appState = 'default';
+    this.text = "";
   }
   updateTodo(){
     for(var i = 0; i < this.todos.length; ++i){
